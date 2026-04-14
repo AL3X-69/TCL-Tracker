@@ -22,5 +22,6 @@
     "leaflet": "^1.9.4",
     "papaparse": "^5.5.3",
     "rbush": "^4.0.1"
-  }
+  },
+  "packageManager": "yarn@4.13.0"
 }
