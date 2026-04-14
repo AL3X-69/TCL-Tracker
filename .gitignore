@@ -23,6 +23,16 @@ dist-ssr
 *.sln
 *.sw?
 
+# Yarn PnP
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Project external data
 _old
 public/gtfs/*.txt
 public/pictos/*.svg
+
