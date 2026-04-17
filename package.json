@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preprocess": "tsx --tsconfig tsconfig.build.json data/preprocessing.ts"
   },
   "devDependencies": {
     "@types/jquery": "^4",
     "@types/leaflet": "^1",
     "@types/papaparse": "^5",
+    "@types/rbush": "^4.0.0",
     "sass": "^1.99.0",
+    "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.4"
   },

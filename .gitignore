@@ -33,6 +33,4 @@ dist-ssr
 
 # Project external data
 _old
-public/gtfs/*.txt
 public/pictos/*.svg
-
